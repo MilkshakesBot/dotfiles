@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Check if zsh is installed
-if ! command -v zsh &> /dev/null; then
+if ! which zsh; then
     echo "Zsh is not installed. Please install zsh and re-run this script."
     exit 1
 fi
