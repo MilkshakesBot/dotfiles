@@ -1,6 +1,20 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-alias ls='ls --color=auto'
+
+# Custom aliases
+alias ls 'ls --color=auto'
+alias svim='sudoedit vim'
+alias snano='sudoedit nano'
+alias ssh="kitten ssh"
+
+# Set default editor
 export EDITOR=vim
+
+# History settings
 HISTFILE=~/.bash_history
 HISTSIZE=1000
 SAVEHIST=1000
