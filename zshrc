@@ -16,10 +16,10 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Custom aliases
-alias ls='ls --color=auto'
+alias tracert="tracepath"
 alias svim='sudoedit vim'
 alias snano='sudoedit nano'
-alias ssh="kitten ssh"
+alias sh="kitten ssh"
 
 # Set default editor
 export EDITOR=vim

@@ -9,7 +9,6 @@
 alias ls 'ls --color=auto'
 alias svim='sudoedit vim'
 alias snano='sudoedit nano'
-alias ssh="kitten ssh"
 
 # Set default editor
 export EDITOR=vim
