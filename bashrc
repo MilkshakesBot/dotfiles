@@ -6,7 +6,6 @@
 [[ $- != *i* ]] && return
 
 # Custom aliases
-alias ls 'ls --color=auto'
 alias svim='sudoedit vim'
 alias snano='sudoedit nano'
 
